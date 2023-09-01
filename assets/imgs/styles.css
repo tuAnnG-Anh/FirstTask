@@ -122,6 +122,7 @@ ul li:hover {
   margin-top: 5rem;
   margin-bottom: 3rem;
   width: 100%;
+  z-index: 9;
 }
 .flower-pattern {
   position: absolute;
@@ -214,16 +215,17 @@ ul li:hover {
   width: 100%;
 }
 .brands_item img {
-  width: 10rem;
+  /* width: 10rem; */
 }
 #section-2 {
   margin-top: 4rem;
 }
-.hot--category {
+.hot-category {
   display: flex;
   margin-bottom: 6rem;
+  justify-content: space-between;
 }
-.hot--category h3 {
+.hot-category h3 {
   transform: rotate(-90deg);
   position: absolute;
   font-weight: 400;
@@ -233,18 +235,18 @@ ul li:hover {
   text-transform: uppercase;
   font-size: 1.5rem;
 }
-.hot--category__left {
+.hot-category__left {
   position: relative;
   width: 50%;
 }
-.hot--category__left img {
+.hot-category__left img {
   height: 100%;
 }
 .row {
   display: flex;
   flex-wrap: wrap;
   height: 48%;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 div img {
   vertical-align: middle;
@@ -255,17 +257,18 @@ div img {
 .mt-05 {
   margin-top: 0.5rem;
 }
-.hot--category__right {
+.hot-category__right {
   width: 50%;
-  /* margin-left: 1rem; */
+  margin-left: 1.25rem;
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
   justify-content: flex-end;
 }
-.hot--category__item {
-  width: 46%;
+.hot-category-item {
+  width: 48%;
   height: 100%;
+  position: relative;
 }
 
 .title h3 {
@@ -296,18 +299,19 @@ div img {
 .list-product {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -1rem;
+  justify-content: space-between;
 }
 .product-item {
-  width: 25%;
+  width: 24%;
 }
 .product-item:hover .product__hover,
-.hot--category__left:hover .product__hover {
+.hot-category__left:hover .product__hover,
+.hot-category-item:hover .product__hover {
   display: flex;
   opacity: 1;
 }
 .product-container {
-  margin: 0.5rem;
+  /* margin: 0.5rem; */
 }
 
 .product-item__top {
@@ -346,7 +350,8 @@ h6 {
   position: absolute;
   width: 100%;
   bottom: 0;
-  transition: all 1s ease-in-out;
+  animation: showInstagramIcon 0.5s ease-in-out;
+
   opacity: 0;
   display: none;
 }
@@ -567,28 +572,23 @@ input[type="email"] {
   margin-left: 0.25rem;
   font-size: 0.75rem;
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   html {
     font-size: 12px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   html {
     font-size: 13px;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   html {
     font-size: 14px;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   html {
     font-size: 15px;
-  }
-}
-@media (min-width: 1400px) {
-  html {
-    font-size: 16px;
   }
 }
