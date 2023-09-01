@@ -257,10 +257,11 @@ div img {
 }
 .hot--category__right {
   width: 50%;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
+  justify-content: flex-end;
 }
 .hot--category__item {
   width: 46%;
