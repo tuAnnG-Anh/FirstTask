@@ -215,7 +215,6 @@ ul li:hover {
   background: var(--black);
 }
 .banner_image {
-  margin-left: 6rem;
   position: relative;
 }
 .banner_image img {
@@ -660,8 +659,11 @@ input[type="email"] {
   .banner__content {
     margin-top: 3rem;
   }
+  .rectangle {
+    margin: auto;
+  }
   .banner_image {
-    margin-left: 2rem;
+    margin: auto;
   }
   .footer__bottom .container * {
     font-size: 0.5rem;
@@ -738,8 +740,8 @@ input[type="email"] {
     margin-right: 1rem;
   }
 }
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   html {
     font-size: 12px;
   }
-}
+} */
