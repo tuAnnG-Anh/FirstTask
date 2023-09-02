@@ -216,6 +216,7 @@ ul li:hover {
 }
 .banner_image {
   position: relative;
+  margin-right: 6rem;
 }
 .banner_image img {
   position: absolute;
