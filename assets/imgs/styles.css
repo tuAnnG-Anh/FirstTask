@@ -39,7 +39,6 @@ ul li {
 }
 section {
   max-width: 100%;
-  overflow: auto;
   margin-top: 6rem;
 }
 #section-1 {
@@ -86,13 +85,18 @@ section {
 .logo img {
   width: 1.5rem;
 }
-.search {
+.search,
+.menu-bar-icon {
   display: flex;
   justify-items: center;
 }
 
-.search i {
+.search i,
+.menu-bar-icon i {
   font-size: 1rem;
+}
+.menu-bar-icon {
+  display: none;
 }
 .account {
   display: flex;
@@ -585,6 +589,31 @@ input[type="email"] {
 @media (max-width: 992px) {
   html {
     font-size: 14px;
+  }
+  .search {
+    display: none;
+  }
+  .menu-bar-icon {
+    display: block;
+  }
+  .account button span {
+    display: none;
+  }
+  .hot-category h3 {
+    left: -48%;
+    font-size: 1rem;
+  }
+  .footer-menu {
+    width: unset;
+  }
+  .container {
+    width: 80%;
+  }
+  .banner_image {
+    margin-left: 4rem;
+  }
+  .menu {
+    display: none;
   }
 }
 @media (max-width: 1200px) {
