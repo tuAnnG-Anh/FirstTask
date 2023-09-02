@@ -616,6 +616,9 @@ input[type="email"] {
   .menu-bar-icon {
     display: block;
   }
+  .banner_image {
+    margin: auto;
+  }
   .account button span {
     display: none;
   }
@@ -652,7 +655,7 @@ input[type="email"] {
 
 @media (max-width: 576px) {
   html {
-    font-size: 13px;
+    font-size: 12px;
   }
   .banner {
     flex-direction: column-reverse;
@@ -663,9 +666,7 @@ input[type="email"] {
   .rectangle {
     margin: auto;
   }
-  .banner_image {
-    margin: auto;
-  }
+
   .footer__bottom .container * {
     font-size: 0.5rem;
   }
@@ -699,7 +700,7 @@ input[type="email"] {
   .brand-banner-content {
     right: 0rem;
     top: 4rem;
-    max-width: 20rem;
+    max-width: 16rem;
   }
   .brand-logo-white {
     width: 5rem;
