@@ -1,0 +1,82 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap";
+/* Font family */
+
+:root {
+  --dark: #000;
+  --black: #1e2832;
+  --white: #fff;
+  --dark-50: #00000080;
+  --white-5: #ffffff0d;
+  --primary: #ff6f61;
+  --font-size-web: 16px;
+  --font-size-tablet: 14px;
+  --font-size-mobile: 12px;
+}
+
+/* root */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Default web */
+
+html {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.col-3 {
+  width: calc(100% / 3);
+}
+
+html {
+  font-size: 16px;
+}
+
+img {
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+}
+
+section {
+  max-width: 100%;
+  margin-top: 6rem;
+}
+
+
+/* Web */
+@media screen and (min-width: 1024px) {
+    .banner__content .description {
+      font-size: var(--font-size-web);
+    }
+  }
+  
+  /* Tablet */
+  @media screen and (max-width: 1023px) {
+    .banner__content .description {
+      font-size: var(--font-size-tablet);
+    }
+  }
+  
+  /* Mobile */
+  @media screen and (max-width: 767px) {
+    .banner__content .description {
+      font-size: var(--font-size-mobile);
+    }
+  }
+  
