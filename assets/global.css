@@ -60,22 +60,30 @@ section {
 
 /* Web */
 @media screen and (min-width: 1024px) {
-    .banner__content .description {
-      font-size: var(--font-size-web);
-    }
+  .banner__content .description {
+    font-size: var(--font-size-web);
   }
-  
-  /* Tablet */
-  @media screen and (max-width: 1023px) {
-    .banner__content .description {
-      font-size: var(--font-size-tablet);
-    }
+  html {
+    font-size: var(--font-size-web);
   }
-  
-  /* Mobile */
-  @media screen and (max-width: 767px) {
-    .banner__content .description {
-      font-size: var(--font-size-mobile);
-    }
+}
+
+/* Tablet */
+@media screen and (max-width: 1023px) {
+  .banner__content .description {
+    font-size: var(--font-size-tablet);
   }
-  
+  html {
+    font-size: var(--font-size-tablet);
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .banner__content .description {
+    font-size: var(--font-size-mobile);
+  }
+  html {
+    font-size: var(--font-size-mobile);
+  }
+}
