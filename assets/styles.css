@@ -202,8 +202,10 @@ ul li:hover {
 
 .banner_image img {
   position: absolute;
-  top: -1rem;
-  right: 5rem;
+  /* top: -1rem;
+  right: 5rem; */
+  bottom: 5%;
+  right: 16%;
 }
 
 .banner_image img,
@@ -271,11 +273,7 @@ div img {
 }
 
 .hot-category__right {
-  display: flex;
   flex-wrap: wrap;
-  align-content: space-between;
-  justify-content: flex-end;
-  margin-left: 0;
   margin-top: 1rem;
 }
 
@@ -298,7 +296,9 @@ div img {
 
 .menu-product {
   display: flex;
-  width: 23.3125rem;
+  width: 20rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .btn-filter {
@@ -313,18 +313,11 @@ div img {
 .menu-product__item {
   font-family: Open Sans;
   font-size: 1rem;
-  margin: auto;
   color: rgba(0, 0, 0, 0.5);
 }
 
 .menu-product__item.active {
   color: var(--dark);
-}
-
-.list-product {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .product-item {
@@ -355,8 +348,8 @@ div img {
   content: "HOT";
   color: var(--white);
   position: absolute;
-  font-size: 8px;
-  padding: 4px 15px;
+  font-size: 1rem;
+  padding: 0.25rem 1rem;
   top: 0;
   left: 0;
   background-color: var(--primary);
@@ -368,8 +361,8 @@ div img {
   content: "SALE";
   color: var(--white);
   position: absolute;
-  font-size: 8px;
-  padding: 4px 15px;
+  font-size: 1rem;
+  padding: 0.25rem 1rem;
   top: 0;
   left: 0;
   background-color: var(--dark-50);
@@ -595,7 +588,7 @@ input[type="email"] {
   margin-bottom: 2rem;
 }
 .footer__top {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .left-footer {

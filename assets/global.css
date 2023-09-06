@@ -135,6 +135,48 @@ section {
   html {
     font-size: var(--font-size-tablet);
   }
+  .grid-m__column-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    /* flex: 0 0 calc((3 / 12) * 100%); */
+    width: calc((4 / 12) * 100%);
+  }
+  .grid-m__column-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+    /* flex: 0 0 calc((3 / 12) * 100%); */
+    width: calc((6 / 12) * 100%);
+  }
+  .banner {
+    flex-direction: row;
+  }
+  .banner_image img {
+    top: -1rem;
+    right: 1rem;
+  }
+  .banner__content {
+    width: 24rem;
+    margin: 0;
+  }
+  .hot-category__right {
+    margin-top: 0;
+  }
+  .hot-category h3 {
+    left: -40%;
+    font-size: inherit;
+  }
+  #section-3 .container {
+    height: 28rem;
+  }
+  .container > img {
+    height: 28rem;
+  }
+  .brand-logo-dark {
+    width: 20rem;
+  }
+  .brand-banner-content {
+    left: 28rem;
+  }
 }
 
 /* laptop */
