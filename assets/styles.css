@@ -346,6 +346,7 @@ div img {
 
 .product-item__top {
   margin-bottom: 1rem;
+  position: relative;
 }
 
 /* before */
@@ -447,12 +448,6 @@ h6 {
   color: var(--primary);
 }
 
-#section-3 .container {
-  width: 60%;
-  height: 48.5rem;
-  margin-left: 0;
-}
-
 .product .title {
   display: flex;
   flex-direction: column;
@@ -462,37 +457,38 @@ h6 {
 #section-3 .container {
   background: #010204;
   width: 100%;
-  height: 38rem;
+  height: 24rem;
 }
 
 .container > img {
-  height: 38rem;
-  transform: translate(-10%, 0px);
+  height: 24rem;
+  transform: translate(-6%, 0px);
 }
 
 .brand-logo-dark {
-  width: 33rem;
+  width: 12rem;
   position: absolute;
   right: 0;
   top: 8%;
 }
 
 .brand-logo-white {
-  width: 11.9375rem;
-  height: 5.0625rem;
+  width: 8rem;
+  /* height: 5.0625rem; */
 }
 
 .brand-banner-content p {
   color: var(--white);
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
 .brand-banner-content {
   position: absolute;
   display: flex;
   flex-direction: column;
-  right: 17rem;
-  top: 11rem;
+  /* right: 17rem; */
+  left: 16rem;
+  top: 6rem;
   max-width: 26rem;
 }
 
@@ -595,9 +591,11 @@ input[type="email"] {
   margin-left: 1.5rem;
   cursor: pointer;
 }
-
+#footer .grid__column-6 {
+  margin-bottom: 2rem;
+}
 .footer__top {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .left-footer {
@@ -632,7 +630,9 @@ input[type="email"] {
   /* margin-left: 3rem; */
   /* width: 12.5rem; */
 }
-
+.social {
+  display: flex;
+}
 .title-menu {
   font-size: 1rem;
   font-weight: 600;

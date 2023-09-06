@@ -112,6 +112,12 @@ section {
   /* flex: 0 0 calc((3 / 12) * 100%); */
   width: calc((4 / 12) * 100%);
 }
+.grid__column-5-12 {
+  padding-left: 5px;
+  padding-right: 5px;
+  /* flex: 0 0 calc((3 / 12) * 100%); */
+  width: calc((5 / 12) * 100%);
+}
 .grid__column-6 {
   padding-left: 5px;
   padding-right: 5px;
