@@ -8,7 +8,8 @@
   --dark-50: #00000080;
   --white-5: #ffffff0d;
   --primary: #ff6f61;
-  --font-size-web: 16px;
+  --font-size-desktop: 18px;
+  --font-size-laptop: 16px;
   --font-size-tablet: 14px;
   --font-size-mobile: 12px;
 }
@@ -37,12 +38,13 @@ a {
   text-decoration: none;
 }
 
-.col-3 {
+/* .col-3 {
   width: calc(100% / 3);
-}
+} */
 
 html {
-  font-size: 16px;
+  font-size: var(--font-size-mobile);
+  scroll-behavior: smooth;
 }
 
 img {
@@ -57,33 +59,88 @@ section {
   max-width: 100%;
   margin-top: 6rem;
 }
+.mt-10 {
+  margin-top: 10px;
+}
+/* Grid */
+.grid {
+  /* width: 1200px; */
+  max-width: 100%;
+  margin: 0;
+}
+.grid.wide {
+  width: calc((10 / 12) * 100%);
+  margin: 0 auto;
+}
+.grid__full-width {
+  width: 100%;
+}
 
-/* Web */
-@media screen and (min-width: 1024px) {
-  .banner__content .description {
-    font-size: var(--font-size-web);
-  }
-  html {
-    font-size: var(--font-size-web);
-  }
+/* Cùng nằm trên một hàng ngang và xuống dòng */
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.grid__column {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+}
+.grid__column-2 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: calc((2 / 12) * 100%);
+}
+
+.grid__column-2-4 {
+  /* 5 sản phẩm */
+  padding-left: 5px;
+  padding-right: 5px;
+  /* flex: 0 0 calc((2 / 10) * 100%); */
+  width: calc((2 / 10) * 100%);
+}
+.grid__column-3 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: calc((3 / 12) * 100%);
+}
+.grid__column-4 {
+  padding-left: 5px;
+  padding-right: 5px;
+  /* flex: 0 0 calc((3 / 12) * 100%); */
+  width: calc((4 / 12) * 100%);
+}
+.grid__column-6 {
+  padding-left: 5px;
+  padding-right: 5px;
+  /* flex: 0 0 calc((3 / 12) * 100%); */
+  width: calc((6 / 12) * 100%);
+}
+.grid__column-10 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: calc((10 / 12) * 100%);
 }
 
 /* Tablet */
-@media screen and (max-width: 1023px) {
-  .banner__content .description {
-    font-size: var(--font-size-tablet);
-  }
+@media (min-width: 640px) {
   html {
     font-size: var(--font-size-tablet);
   }
 }
 
-/* Mobile */
-@media screen and (max-width: 767px) {
-  .banner__content .description {
-    font-size: var(--font-size-mobile);
-  }
+/* laptop */
+@media (min-width: 1024px) {
   html {
-    font-size: var(--font-size-mobile);
+    font-size: var(--font-size-laptop);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+  html {
+    font-size: var(--font-size-desktop);
   }
 }
