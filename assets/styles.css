@@ -243,16 +243,18 @@ ul li:hover {
 }
 
 .hot-category h3 {
-  transform: rotate(-90deg);
-  position: absolute;
+  /* transform: rotate(-90deg); */
+  /* position: absolute; */
   font-weight: 400;
   text-align: center;
-  bottom: 48%;
-  left: -50%;
+  /* bottom: 48%;
+  left: -50%; */
   text-transform: uppercase;
   font-size: 1.5rem;
 }
-
+.right::before {
+  content: "Explore new and popular styles";
+}
 .hot-category__left {
   position: relative;
 }
@@ -502,16 +504,16 @@ h6 {
 
 .instagram__content {
   margin: 3.5rem 0;
-  display: flex;
   width: 100%;
   justify-content: space-between;
 }
 
 .instagram-item {
   width: calc(100% / 6.5);
+}
+.instagram-image {
   position: relative;
 }
-
 .instagram-item:hover .instagram-icon__hover {
   display: flex;
 }
