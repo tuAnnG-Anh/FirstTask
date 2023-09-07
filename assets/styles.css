@@ -248,10 +248,10 @@ ul li:hover {
   transform: rotate(-90deg);
   position: absolute;
   z-index: 9;
-  top: -10%;
+  top: 0;
   right: -10%;
   left: 0;
-  bottom: -10%;
+  bottom: 0;
 }
 .hot-category h3 {
   /* transform: rotate(-90deg); */
@@ -262,6 +262,7 @@ ul li:hover {
   left: -50%; */
   text-transform: uppercase;
   font-size: 1.5rem;
+  margin-top: -10%;
 }
 /* .right::before {
   content: "Explore new and popular styles";

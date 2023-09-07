@@ -180,6 +180,9 @@ section {
   .hot-category__right {
     margin-top: 0;
   }
+  .hot-category h3 {
+    font-size: 1.2rem;
+  }
   .btn-filter span {
     display: block;
   }
