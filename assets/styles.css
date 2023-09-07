@@ -241,7 +241,18 @@ ul li:hover {
   /* justify-content: space-between;
   flex-direction: column; */
 }
-
+.rotate-90 {
+  position: relative;
+}
+.text__rotate {
+  transform: rotate(-90deg);
+  position: absolute;
+  z-index: 9;
+  top: -10%;
+  right: -10%;
+  left: 0;
+  bottom: -10%;
+}
 .hot-category h3 {
   /* transform: rotate(-90deg); */
   /* position: absolute; */
