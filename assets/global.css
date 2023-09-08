@@ -33,7 +33,14 @@ html {
   width: 100%;
   height: 100%;
 }
-
+button {
+  font-family: Roboto;
+  font-size: 1.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
 a {
   text-decoration: none;
 }
@@ -57,10 +64,11 @@ ul li {
 
 section {
   max-width: 100%;
-  margin-top: 6rem;
+  /* margin-top: 6rem;   */
+  margin-bottom: 8.75rem;
 }
-.mt-10 {
-  margin-top: 10px;
+.mt-15 {
+  margin-top: 1.5rem;
 }
 /* Grid */
 .grid {
@@ -80,53 +88,53 @@ section {
 .grid__row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -5px;
-  margin-right: -5px;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
 }
 .grid__column {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   width: 100%;
 }
 .grid__column-2 {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   width: calc((2 / 12) * 100%);
 }
 
 .grid__column-2-4 {
-  /* 5 sản phẩm */
-  padding-left: 5px;
-  padding-right: 5px;
+  /* .75remản phẩm */
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   /* flex: 0 0 calc((2 / 10) * 100%); */
   width: calc((2 / 10) * 100%);
 }
 .grid__column-3 {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   width: calc((3 / 12) * 100%);
 }
 .grid__column-4 {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   /* flex: 0 0 calc((3 / 12) * 100%); */
   width: calc((4 / 12) * 100%);
 }
 .grid__column-5-12 {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   /* flex: 0 0 calc((3 / 12) * 100%); */
   width: calc((5 / 12) * 100%);
 }
 .grid__column-6 {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   /* flex: 0 0 calc((3 / 12) * 100%); */
   width: calc((6 / 12) * 100%);
 }
 .grid__column-10 {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   width: calc((10 / 12) * 100%);
 }
 
@@ -141,28 +149,28 @@ section {
   .grid-m__row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -8px;
-    margin-right: -8px;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
   }
   .grid-m__column {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
     width: 100%;
   }
   .grid-m__column-2 {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
     width: calc((2 / 12) * 100%);
   }
   .grid-m__column-4 {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
     /* flex: 0 0 calc((3 / 12) * 100%); */
     width: calc((4 / 12) * 100%);
   }
   .grid-m__column-6 {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
     /* flex: 0 0 calc((3 / 12) * 100%); */
     width: calc((6 / 12) * 100%);
   }
@@ -175,13 +183,12 @@ section {
   }
   .banner__content {
     width: 24rem;
-    margin: 0;
   }
   .hot-category__right {
     margin-top: 0;
   }
   .hot-category h3 {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
   }
   .btn-filter span {
     display: block;
@@ -208,8 +215,16 @@ section {
   html {
     font-size: var(--font-size-laptop);
   }
+  .banner__content .title {
+  }
+  .banner__content {
+    width: 42.625rem;
+  }
+  .banner {
+    margin-top: 9.69rem;
+  }
   .grid.wide {
-    width: 1080px;
+    width: 82.5rem;
   }
   .mt-l-24 {
     margin-top: 24px;
@@ -219,27 +234,27 @@ section {
   }
   .header__bot {
     display: block;
-    margin-top: 1.75rem;
+    margin-top: 1.88rem;
   }
   .grid-l__row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -12px;
-    margin-right: -12px;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
   }
   .grid-l__column-2 {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
     width: calc((2 / 12) * 100%);
   }
   .grid-l__column-3 {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
     width: calc((3 / 12) * 100%);
   }
   .grid-l__column-6 {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
     width: calc((6 / 12) * 100%);
   }
   .banner_image {
@@ -248,7 +263,14 @@ section {
   .brand-logo-dark {
     width: 36rem;
   }
-
+  .hot-category h3 {
+    font-family: Roboto;
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
   .brand-banner-content {
     right: 17rem;
     top: 12rem;

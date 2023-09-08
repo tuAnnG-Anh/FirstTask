@@ -2,6 +2,7 @@
   background: var(--black-5, rgba(30, 40, 50, 0.05));
   position: relative;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .container {
@@ -38,7 +39,7 @@
 
 .header__top {
   display: flex;
-  padding: 1.5rem 0;
+  padding: 1.94rem 0 1.56rem 0;
   border-bottom: 0.0625rem solid #e3e3e3;
   align-items: center;
 }
@@ -57,15 +58,17 @@
 }
 
 .logo span {
-  font-size: 1.5rem;
-  color: var(--dark, #000);
+  color: var(--Dark, #000);
   font-family: AmstelvarAlpha;
+  font-size: 1.75rem;
+  font-style: normal;
   font-weight: 400;
-  margin: 0 0.5rem;
+  line-height: normal;
 }
 
 .logo img {
-  width: 1.5rem;
+  width: 1.9375rem;
+  height: 0.9375rem;
 }
 
 .search,
@@ -93,7 +96,7 @@
   border: none;
   background: none;
   font-size: 1rem;
-  margin-left: 0.75rem;
+  margin-left: 1.38rem;
 }
 
 .menu {
@@ -114,11 +117,10 @@ ul li:hover {
 .banner {
   display: flex;
   margin-top: 5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 3.75rem;
   width: 100%;
   z-index: 9;
   flex-direction: column-reverse;
-  justify-content: space-between;
 }
 
 .flower-pattern {
@@ -156,18 +158,26 @@ ul li:hover {
 .banner__content {
   width: 35rem;
   margin-top: 3rem;
+  margin-right: 6.12rem;
   max-width: 100%;
 }
 
 .banner__content .title {
-  font-size: 4rem;
+  color: var(--Dark, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Body */
+  font-family: Roboto;
+  font-size: 4.625rem;
+  font-style: normal;
   font-weight: 300;
-  margin-bottom: 3rem;
+  line-height: 3.4375rem; /* 74.324% */
+  text-transform: capitalize;
+  margin-bottom: 3.25rem;
 }
 
 .banner__content .description {
   font-weight: 500;
-  margin-bottom: 3.75rem;
+  margin-bottom: 4.13rem;
   line-height: 3.25rem;
 }
 
@@ -178,10 +188,12 @@ ul li:hover {
 
 .btn {
   display: inline-flex;
-  padding: 1rem 1.75rem;
+  padding: 1.1875rem 1.625rem;
   justify-content: center;
   align-items: center;
-  font-size: 1.25rem;
+  gap: 0.5rem;
+  font-size: 1.8125rem;
+
   color: var(--white);
   border: none;
   cursor: pointer;
@@ -221,10 +233,11 @@ ul li:hover {
 }
 
 .brands {
-  justify-content: space-between;
   display: flex;
-  margin: 0 0 3rem 0;
-  width: 100%;
+  width: 82.5rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5.63rem;
 }
 
 .brands_item img {
@@ -232,12 +245,12 @@ ul li:hover {
 }
 
 #section-2 {
-  margin-top: 4rem;
+  margin-top: 5.63rem;
 }
 
 .hot-category {
   /* display: flex; */
-  margin-bottom: 6rem;
+  margin-bottom: 8.75rem;
   /* justify-content: space-between;
   flex-direction: column; */
 }
@@ -282,13 +295,13 @@ div img {
   margin-bottom: 1rem;
 }
 
-.mt-05 {
-  margin-top: 0.5rem;
+.mt-15 {
+  margin-top: 1.5rem;
 }
 
 .hot-category__right {
-  flex-wrap: wrap;
-  margin-top: 1rem;
+  /* flex-wrap: wrap; */
+  margin-top: 1.5rem;
 }
 
 .hot-category-item {
@@ -297,13 +310,16 @@ div img {
 }
 
 .title h3 {
-  font-size: 2.5rem;
+  font-family: Roboto;
+  font-size: 3.125rem;
+  font-style: normal;
   font-weight: 500;
-  text-align: center;
+  line-height: normal;
+  text-transform: capitalize;
 }
 
 .top-section-product {
-  margin: 2rem 0;
+  margin: 2.19rem 0;
   display: flex;
   justify-content: space-between;
 }
@@ -317,17 +333,23 @@ div img {
 
 .btn-filter {
   font-family: Open Sans;
-  font-size: 1rem;
-  font-weight: 400;
-  padding: 0.5rem 1rem;
+  display: flex;
+  padding: 0.3125rem 0.9375rem;
+  align-items: center;
+  gap: 0.25rem;
 }
 .btn-filter span {
   display: none;
 }
 .menu-product__item {
+  color: rgba(0, 0, 0, 0.5);
+
   font-family: Open Sans;
   font-size: 1rem;
-  color: rgba(0, 0, 0, 0.5);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
 }
 
 .menu-product__item.active {
@@ -352,7 +374,7 @@ div img {
 }
 
 .product-item__top {
-  margin-bottom: 1rem;
+  margin-bottom: 1.12rem;
   position: relative;
 }
 
@@ -454,7 +476,7 @@ h6 {
 .shop-now:hover * {
   color: var(--primary);
 }
-
+.instagram .title,
 .product .title {
   display: flex;
   flex-direction: column;
@@ -465,6 +487,7 @@ h6 {
   background: #010204;
   width: 100%;
   height: 24rem;
+  margin-top: 8.75rem;
 }
 
 .container > img {
@@ -500,8 +523,9 @@ h6 {
 }
 
 .btn-collection {
-  max-width: 11rem;
-  padding: 1rem;
+  /* max-width: 11rem; */
+  /* padding: 1rem; */
+  width: 14.8rem;
   background-color: var(--white);
   color: var(--dark);
 }
@@ -542,11 +566,11 @@ h6 {
 }
 
 #contact .container {
-  padding: 6rem 0;
+  padding: 6.25rem 0;
 }
 
 .instagram__content {
-  margin: 3.5rem 0;
+  margin: 3.75rem 0;
   width: 100%;
   justify-content: space-between;
 }
@@ -594,9 +618,16 @@ h6 {
 }
 
 h2.title {
-  font-size: 2.5rem;
-  font-weight: 500;
+  color: var(--Dark, #000);
   text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  /* H2 */
+  font-family: Roboto;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
 }
 
 .address {
@@ -629,11 +660,14 @@ input[type="email"] {
   margin-left: 1.5rem;
   cursor: pointer;
 }
-#footer .grid__column-6 {
+.grid__column-6 {
   margin-bottom: 2rem;
 }
+#footer {
+  margin-bottom: 0;
+}
 .footer__top {
-  margin-bottom: 2rem;
+  margin-bottom: 3.63rem;
 }
 
 .left-footer {
@@ -653,7 +687,9 @@ input[type="email"] {
 .text-capitalize {
   text-transform: capitalize;
 }
-
+.title .text-capitalize {
+  text-align: center;
+}
 .social i {
   margin-right: 2rem;
   font-size: 1.125rem;
