@@ -158,7 +158,7 @@ ul li:hover {
 .banner__content {
   width: 35rem;
   margin-top: 3rem;
-  margin-right: 6.12rem;
+  margin-right: 7.25rem;
   max-width: 100%;
 }
 
@@ -523,9 +523,10 @@ h6 {
 }
 
 .btn-collection {
-  /* max-width: 11rem; */
+  max-width: 10rem;
   /* padding: 1rem; */
-  width: 14.8rem;
+  font-size: 1rem;
+  padding: 1rem 0.5rem;
   background-color: var(--white);
   color: var(--dark);
 }

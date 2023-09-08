@@ -280,6 +280,13 @@ section {
   #section-3 .container {
     height: 38rem;
   }
+  .btn-collection {
+    /* max-width: 11rem; */
+    /* padding: 1rem; */
+    width: 14.8rem;
+    background-color: var(--white);
+    color: var(--dark);
+  }
 }
 
 /* Desktop */
