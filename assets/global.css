@@ -263,6 +263,13 @@ section {
   .brand-logo-dark {
     width: 36rem;
   }
+  .banner_image img {
+    position: absolute;
+    /* top: -1rem;
+  right: 5rem; */
+    bottom: 5%;
+    right: 16%;
+  }
   .hot-category h3 {
     font-family: Roboto;
     font-size: 2.125rem;
