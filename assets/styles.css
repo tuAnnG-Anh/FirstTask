@@ -497,10 +497,12 @@ h6 {
 }
 .content__container {
   position: absolute;
-  width: 50%;
+  width: 40%;
+  max-width: 60rem;
   top: 0;
   right: 0;
   bottom: 0;
+  height: 80%;
 }
 .container > img {
   /* height: 26rem; */
@@ -515,21 +517,24 @@ h6 {
   right: 0;
   top: 0;
   margin-top: 6%;
+  width: 80%;
 }
 .brand-logo-dark {
   width: 12rem;
+  width: 100%;
 }
 .brand-left {
-  position: absolute;
+  /* position: absolute;
   bottom: 0;
   left: 0;
-  margin-bottom: 16%;
-  width: 90%;
+  
+  width: 60%; */
+  /* margin-bottom: 3rem; */
 }
 .brand-left p {
 }
 .brand-logo-white {
-  width: 5rem;
+  width: 25%;
   /* height: 5.0625rem; */
 }
 
@@ -542,6 +547,9 @@ h6 {
 .brand-banner-content {
   position: relative;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .btn-collection {
