@@ -497,12 +497,15 @@ h6 {
 }
 .content__container {
   position: absolute;
-  width: 40%;
+  width: 45%;
   max-width: 60rem;
   top: 0;
   right: 0;
   bottom: 0;
   height: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .container > img {
   /* height: 26rem; */
@@ -513,15 +516,22 @@ h6 {
   flex-shrink: 0;
 }
 .brand-top {
-  position: absolute;
+  /* position: absolute;
   right: 0;
   top: 0;
   margin-top: 6%;
-  width: 80%;
+  width: 80%; */
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  position: relative;
 }
 .brand-logo-dark {
-  width: 12rem;
-  width: 100%;
+  /* width: 12rem;
+  width: 100%; */
+  width: 84%;
+  /* align-self: flex-start; */
 }
 .brand-left {
   /* position: absolute;
@@ -532,10 +542,22 @@ h6 {
   /* margin-bottom: 3rem; */
 }
 .brand-left p {
+  color: var(--white);
+  font-family: Roboto;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem; /* 153.846% */
+  text-transform: capitalize;
+  margin: 1rem 0;
 }
+
 .brand-logo-white {
-  width: 25%;
+  width: 20%;
   /* height: 5.0625rem; */
+  position: absolute;
+  left: 0;
+  bottom: 8%;
 }
 
 .brand-banner-content p {
@@ -545,11 +567,11 @@ h6 {
 }
 
 .brand-banner-content {
-  position: relative;
+  /* position: relative;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-end; */
 }
 
 .btn-collection {
