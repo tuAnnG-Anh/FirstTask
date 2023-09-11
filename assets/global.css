@@ -288,7 +288,16 @@ section {
     padding-right: 0.75rem;
     width: calc((6 / 12) * 100%);
   }
-
+  .grid-l__column-2-5 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    width: calc((2 / 10) * 100%);
+  }
+  .grid-l__column-4-5 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    width: calc((4 / 10) * 100%);
+  }
   */ .hot-category h3 {
     font-family: Roboto;
     font-size: 2.125rem;

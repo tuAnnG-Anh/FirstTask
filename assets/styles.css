@@ -616,6 +616,7 @@ h6 {
 }
 #contact {
   background: var(--black-5, rgba(30, 40, 50, 0.05));
+  margin-bottom: 7.25rem;
 }
 
 #contact .container {
@@ -744,8 +745,12 @@ input[type="email"] {
   text-align: center;
 }
 .social i {
-  margin-right: 2rem;
-  font-size: 1.125rem;
+  margin-right: 2.25rem;
+  display: flex;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-menu {
@@ -757,6 +762,9 @@ input[type="email"] {
   /* margin-left: 3rem; */
   /* width: 12.5rem; */
 }
+/* .left-footer {
+  margin-bottom: 2rem;
+} */
 .social {
   display: flex;
 }
