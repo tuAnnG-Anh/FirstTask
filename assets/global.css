@@ -260,6 +260,9 @@ section {
   .mt-l-24 {
     margin-top: 24px;
   }
+  .btn-collection {
+    font-size: 1.8125rem;
+  }
   .account span {
     display: inline-block;
   }
