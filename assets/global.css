@@ -146,6 +146,7 @@ section {
   .mt-m-16 {
     margin-top: 16px;
   }
+
   .grid-m__row {
     display: flex;
     flex-wrap: wrap;
@@ -174,7 +175,9 @@ section {
     /* flex: 0 0 calc((3 / 12) * 100%); */
     width: calc((6 / 12) * 100%);
   }
-
+  .brand-left p {
+    margin: 0 0 2rem 0;
+  }
   .btn-collection {
     max-width: max-content;
     padding: 1.1875rem 1.625rem;
