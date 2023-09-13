@@ -8,6 +8,7 @@
   --dark-50: #00000080;
   --white-5: #ffffff0d;
   --primary: #ff6f61;
+  --black-75: rgba(30, 40, 50, 0.75);
   --font-size-desktop: 18px;
   --font-size-laptop: 16px;
   --font-size-tablet: 14px;
@@ -56,6 +57,7 @@ html {
 
 img {
   width: 100%;
+  object-fit: cover;
 }
 
 ul li {

@@ -207,10 +207,13 @@ ul li:hover {
   cursor: pointer;
 }
 
-.btn i {
+.btn i,
+.account i {
   margin-right: 0.5rem;
 }
-
+.left-item i {
+  margin-right: 1.31rem;
+}
 .black-button {
   background: var(--black);
 }
@@ -235,11 +238,11 @@ ul li:hover {
 .rectangle {
   width: 26.5rem;
   height: 33.875rem;
+  border-radius: 10rem 0rem;
   flex-shrink: 0;
 }
 
 .rectangle {
-  border-radius: 10rem 0rem;
   border: 2px solid var(--Dark-25, rgba(0, 0, 0, 0.25));
 }
 
@@ -264,6 +267,12 @@ ul li:hover {
   margin-bottom: 8.75rem;
   /* justify-content: space-between;
   flex-direction: column; */
+}
+.hot-category__item,
+.instagram-image img,
+.img-product img {
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 .rotate-90 {
   position: relative;
@@ -352,6 +361,9 @@ div img {
 .btn-filter span {
   display: none;
 }
+.btn-filter i {
+  margin-right: 0.25rem;
+}
 .menu-product__item {
   color: rgba(0, 0, 0, 0.5);
 
@@ -415,7 +427,9 @@ div img {
   left: 0;
   background-color: var(--dark-50);
 }
-
+.product-item__top img {
+  aspect-ratio: 0.78;
+}
 h6 {
   font-size: 1rem;
   font-weight: 600;
@@ -455,7 +469,7 @@ h6 {
   width: 100%;
   bottom: 0;
   animation: showInstagramIcon 0.5s ease-in-out;
-
+  padding: 0.9375rem 0.875rem;
   opacity: 0;
   display: none;
 }
@@ -469,13 +483,13 @@ h6 {
   font-weight: 500;
 }
 
-.left-item > * {
+/* .left-item > * {
   padding-left: 1rem;
-}
+} */
 
 .shop-now > *,
 .shop-now {
-  padding: 0 0.5rem 0 0.125rem;
+  padding: 0;
 }
 
 .left-item,
@@ -696,7 +710,12 @@ h2.title {
   width: 100%;
   justify-content: space-between;
 }
-
+.address input[type="email"] {
+  font-weight: bold;
+}
+.address input[type="submit"] {
+  text-transform: uppercase;
+}
 .address input {
   border: none;
   border-bottom: 1px solid #1e2832;
@@ -743,6 +762,9 @@ input[type="email"] {
 
 .left-footer .logo {
   justify-content: flex-start;
+}
+.left-footer .text-capitalize {
+  color: var(--black-75);
 }
 
 .text-capitalize {
