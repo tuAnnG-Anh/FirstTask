@@ -468,7 +468,7 @@ h6 {
   position: absolute;
   width: 100%;
   bottom: 0;
-  animation: showInstagramIcon 0.5s ease-in-out;
+  animation: fadeIn 0.5s ease-in-out;
   padding: 0.9375rem 0.875rem;
   opacity: 0;
   display: none;
